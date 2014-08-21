@@ -1,0 +1,24 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.2'
+    }
+}
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+apply plugin: 'android'
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+    dexOptions {
+        incremental true
+    }
+}
+dependencies {
+}

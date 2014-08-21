@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\yura__000\Desktop\Printy\src\main\assets" >
+            <file
+                name="girl"
+                path="C:\Users\yura__000\Desktop\Printy\src\main\assets\girl" />
+            <file
+                name="ironman"
+                path="C:\Users\yura__000\Desktop\Printy\src\main\assets\ironman" />
+            <file
+                name="koeff"
+                path="C:\Users\yura__000\Desktop\Printy\src\main\assets\koeff" />
+            <file
+                name="sudoku"
+                path="C:\Users\yura__000\Desktop\Printy\src\main\assets\sudoku" />
+            <file
+                name="tnmt"
+                path="C:\Users\yura__000\Desktop\Printy\src\main\assets\tnmt" />
+        </source>
+    </dataSet>
+    <dataSet config="release" >
+        <source path="C:\Users\yura__000\Desktop\Printy\src\release\assets" />
+    </dataSet>
+
+</merger>
